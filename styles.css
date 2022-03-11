@@ -36,13 +36,17 @@ body{
     justify-content: center;
     align-content: center;
 }
-
+.main-container .creator-image a{
+    cursor: pointer;
+}
 
 .main-container .creator-image img{
     position: absolute;
-    top: -50px;
+    top: -70px;
     border: 5px solid white;
     border-radius: 100%;
+    width: 120px;
+    height: 115px;
 }
 
 .main-container .creator{
@@ -94,4 +98,6 @@ body{
 .main-container .footer ul li span{
     font-weight: 700;
     font-size: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
